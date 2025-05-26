@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding-top: 70px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-custom {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.student-img {
+  margin-top: 25px;
+  width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+section {
+  padding: 60px 20px;
+  display: none; /* Hide all sections by default */
+}
+
+section.active {
+  display: block;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+}
